@@ -6,7 +6,7 @@ namespace SydneyCoffee
     {
         Program(){
             // Declaring N and allocating a value
-            int n = 2;
+            int n = 4;
 
             // declaring arrays to store data
             String[] name = new string[n];
@@ -40,7 +40,7 @@ namespace SydneyCoffee
         public: void calculate(){
             
                 // determining the price
-                if (quantity[i] <= 5)
+                if (quantity[i] <= 10)
                 {
                     price = 36 * quantity[i];
                 }
