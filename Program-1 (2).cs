@@ -5,7 +5,7 @@ namespace SydneyCoffee
     class Program
     {
         Program(){
-            // Declaring N and allocating a value
+            // Declaring N and allocating a value clone with sijan
             int n = 4;
 
             // declaring arrays to store data
@@ -25,7 +25,7 @@ namespace SydneyCoffee
                 Console.Write("Enter customer name: ");
                 name[i] = Console.ReadLine();
                 quantity[i] = 0;
-                // The loop will continue whenever the entered value is out of range
+                // The loop will continue whenever the entered value is out of range changing some in comments
                 do
                 {
                     Console.Write("Enter the number of coffee beans bags (bag/1kg): ");
